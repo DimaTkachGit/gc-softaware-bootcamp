@@ -41,8 +41,8 @@ logDivisionByResult(['', 'ab', -1, 6, 10, 15, 1]);
 of the sum is even, if it is return the number, otherwise return the numbers multiplied together. If
 the parameters are not numbers return the error message 'make sure you enter 2 numbers'.
 */
+
 /**
- * 4. Generate 6 random numbers between 1-50, add them to an array and log the array.
  * @param {number} num1
  * @param {number} num2
  */
@@ -80,6 +80,7 @@ console.log(randomNumsArr(6, 50));
 5. If we can create a loop to put 0-9 on the screen, how can we count from 9-0? Return an array
 that contains 9-0 using a loop that does this. Print the result
 */
+
 /**
  * @param {number} num
  */
