@@ -69,7 +69,7 @@ console.log(sumOrMultilpy('as', '1'));
  */
 const randomNumsArr = (length, limit) => {
     if (!length || !limit) return 'Required 2 params <number>';
-    if (isNaN(length + limit)) return;
+    if (isNaN(length + limit)) return 'Accepts only <number>';
 
     return new Array(length).fill().map(() => Math.round(Math.random() * limit));
 }
@@ -86,7 +86,9 @@ that contains 9-0 using a loop that does this. Print the result
  */
 const reverseNumsArr = (val) => {
     if (!val) return 'Required 1 param <number>';
-    for (let i = val; i > 0; i--) console.log(i);
+    const arr = [];
+    for (let i = val; i > 0; i--) arr.push(i);
+    return arr;
 }
 console.log(reverseNumsArr(9));
 
